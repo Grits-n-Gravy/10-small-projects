@@ -3,9 +3,9 @@ const close = document.getElementById("close");
 const container = document.getElementById("container");
 
 open.addEventListener("click", () => {
-    container.classList.add("active");
+  container.classList.toggel("active");
 });
 
 close.addEventListener("click", () => {
-    container.classList.remove("active");
+  container.classList.remove("active");
 });
