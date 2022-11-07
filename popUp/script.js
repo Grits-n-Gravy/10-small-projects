@@ -3,7 +3,7 @@ const close = document.getElementById("close");
 const container = document.getElementById("container");
 
 open.addEventListener("click", () => {
-  container.classList.toggel("active");
+  container.classList.toggle("active");
 });
 
 close.addEventListener("click", () => {
